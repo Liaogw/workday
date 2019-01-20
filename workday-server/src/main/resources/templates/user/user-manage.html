@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>用户管理</title>
+<base id="baseUrl" th:href="@{/}" href="/bdms/">
+
+<link rel="stylesheet" type="text/css" href="/resources/commons/css/base.css" th:href="@{/commons/css/base.css}">
+<link rel="stylesheet" type="text/css" href="/resources/commons/css/widget.css" th:href="@{/commons/css/widget.css}">
+<link rel="stylesheet" type="text/css" href="/resources/commons/css/theme.css" th:href="@{/commons/css/theme.css}">
+<link rel="stylesheet" type="text/css" href="/user/css/user-manage.css" th:href="@{/user/css/user-manage.css}" />
+</head>
+<body>
+  <div class="user-condition">
+    <form id="searchFrom">
+      <ul class="clearfix">
+        <li class="condition-items"><label class="items-label">用户名称：</label> <input type="text"
+          class="orm-input items-inps" name="userName" /></li>
+        <li class="condition-items"><label class="items-label">登录账户：</label> <input type="text"
+          class="orm-input items-inps" name="userAcct" /></li>
+        <li class="condition-items"><label class="items-label">用户状态：</label>
+          <div class="ui-select-trigger ui-select-trigger-none w218" id="user-status">
+            <span data-role="trigger-content"></span> <span class="trigger-ico"></span>
+          </div></li>
+      </ul>
+    </form>
+  </div>
+  <div class="user-btns">
+    <div class="fr">
+      <input type="button" id="search" class="orm-button user-btns-check" value="查询" /> <input type="button" id="reset"
+        class="orm-button" value="重置" />
+    </div>
+  </div>
+  <div class="manage-tab">
+    <div class="tab-title">
+      <span class="tab-operate"> <span class="operate-spans" id="batchDelete"> <img
+          src="<%=basePath%>orm/org/user/css/imgs/code-ico1.png" th:src="@{user/css/imgs/code-ico1.png}" alt="" class="operate-spans-ico" /> <span>批量删除</span>
+      </span> <span class="operate-spans" id="refresh"> <img src="<%=basePath%>orm/org/user/css/imgs/code-ico2.png"
+         th:src="@{user/css/imgs/code-ico2.png}" alt="" class="operate-spans-ico" /> <span>刷新</span>
+      </span> <span class="operate-spans" id="addUser"> <img src="<%=basePath%>orm/org/user/css/imgs/code-ico3.png" th:src="@{user/css/imgs/code-ico3.png}"
+          alt="" class="operate-spans-ico" /> <span>新增</span>
+      </span>
+      </span> <span class="tab-title-text">用户信息管理</span>
+    </div>
+    <div class="tab-grid">
+      <table id="grid-table"></table>
+    </div>
+  </div>
+
+  <script src="<%=basePath%>resources/commons/js/seajs/sea.js" th:src="@{commons/js/seajs/sea.js}"></script>
+  <script src="<%=basePath%>resources/commons/js/seajs/sea-config.js" th:src="@{commons/js/seajs/sea-config.js}"></script>
+  <script>
+      var basePath = document.getElementById("baseUrl").href;
+    	seajs.use(basePath + "user/js/user-manage.js");
+    </script>
+
+</body>
+</html>

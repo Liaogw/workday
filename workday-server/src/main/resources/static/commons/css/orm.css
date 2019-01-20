@@ -1,0 +1,16 @@
+.header-nav {
+	float: right;
+	padding-right: 115px;
+}
+.header-nav .nav-list {
+	width: 70px;
+	text-align: center;
+}
+.header-line{
+	width: 1px;
+	height: 20px;
+	border-left: 1px solid #4c89dc;
+	position: absolute;
+	left: 0px;
+	top: 9px;
+}

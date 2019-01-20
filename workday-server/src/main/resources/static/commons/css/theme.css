@@ -1,0 +1,293 @@
+
+
+/*重写datagrid样式start*/
+.datagrid-header .datagrid-header-inner, .datagrid-header-inner .datagrid-htable, .datagrid-body .datagrid-btable{
+	width: 100%;
+}
+
+.datagrid-view1 .datagrid-header{
+	height: 34px;
+	border-top: 0;
+	border-bottom: 1px solid #e1e3e5;
+	background: #f5f7fa;
+}
+.datagrid-view2 .datagrid-header{
+	height: 34px;
+	border-top: 0;
+	border-bottom: 1px solid #e1e3e5;
+	background: #f5f7fa;
+}
+
+.datagrid-htable .datagrid-header-row{
+	height: 35px;
+}
+
+.datagrid-htable .datagrid-header-row td{
+	color: #444444;
+	font-weight: normal;
+	border-right: 1px solid #e1e3e5;
+}
+
+.datagrid-header .datagrid-header-row .datagrid-cell{
+/* 	padding: 0; */
+}
+
+.datagrid-view1 .datagrid-body{
+	color: #666666;
+	font-size: 13px;
+}
+.datagrid-view2 .datagrid-body{
+	color: #666666;
+	font-size: 13px;
+}
+.datagrid-body-inner .datagrid-btable .datagrid-cell-rownumber {
+    padding: 0;
+    line-height: 31px;
+    font-size: 13px;
+}
+
+.datagrid-btable .datagrid-row{
+	height: 31px;
+	border-bottom: 1px solid #e1e3e5;
+}
+.ui-dialog .ui-dialog-head {
+    height: 40px;
+    background: url(imgs/dialog-title-ico.png) 15px center no-repeat #f5f7fa;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border: 1px solid #e1e3e5;
+    border-radius: 0;
+    line-height: 38px;
+}
+.datagrid-body td{
+	border-right: 1px solid #e1e3e5;
+}
+
+.datagrid-body .datagrid-btable .datagrid-cell{
+/* 	padding: 0; */
+	line-height: 31px;
+	font-size: 13px;
+}
+
+.datagrid-row.datagrid-row-over{
+	background: none;
+}
+
+.datagrid-row.datagrid-row-alt, .datagrid-row.datagrid-row-alt.datagrid-row-over{
+	background: #f5f7fa;
+}
+
+.datagrid-pager.pagination{
+	border-top: 0;
+	border-bottom: 0;
+	height: 39px;
+	line-height: 38px;
+}
+
+.pagination .pagination-info{
+	padding-top: 0;
+	color: #444444;
+}
+
+.datagrid-pager.pagination .iconfont{
+	color: #96a5b3;;
+}
+
+.datagrid-pager.pagination span{
+	color: #444444;
+}
+
+.pagination-page-list{
+	width: 48px;
+	border-color: #dde5f0;
+}
+
+.pagination .pagination-num{
+	border-color: #dde5f0;
+	width: 42px;
+	height: 22px;
+}
+
+/*重写datagrid样式end*/
+
+/*重写dialog样式start*/
+.ui-dialog .ui-dialog-head{
+	height: 40px;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	border: 1px solid #e1e3e5;
+	border-radius: 0;
+	line-height: 38px;
+}
+
+.ui-dialog-head .ui-dialog-title{
+	padding-left: 45px;
+	color: #444444;
+	font-size: 16px;
+}
+
+.ui-dialog-head a.ui-dialog-close{
+	color: #96a5b3;
+	font-size: 20px;
+	line-height: 38px;
+	top: 0;
+}
+
+.ui-dialog-head a.ui-dialog-close:hover{
+	color: #e54d4d;
+}
+
+.ui-dialog .ui-dialog-content{
+	border: 1px solid #e1e3e5;
+	border-top: 0;
+}
+/*重写dialog样式end*/
+
+/*重写select样式start*/
+.ui-select-trigger{
+	border-color: #e1e3e5;
+	border-radius: 2px;
+	height: 30px;
+	line-height: 29px;
+	text-indent: 10px;
+	color: #444444;
+	font-size: 13px;
+}
+
+.trigger-ico{
+	display: block;
+	width: 8px;
+	height: 8px;
+	position: absolute;
+	right: 10px;
+	top: 12px;
+}
+
+.ui-select{
+	color: #444444;
+	font-size: 13px;
+}
+
+.ui-select-content{
+	border-color: #e1e3e5;
+	padding: 10px 0;
+	box-shadow: 0px 4px 10px #c2c8ce;
+}
+
+.ui-select-item{
+	padding: 0;
+	line-height: 32px;
+	padding-left: 10px;
+	border-bottom: 0;
+}
+
+.ui-select-item:hover{
+	background: #298cef;
+	color: #ffffff;
+}
+
+.ui-select-trigger.opened{
+	border-color: #71b7fd;
+	box-shadow: 0px 0px 7px rgba(41,140,239,0.3);
+}
+
+.ui-select-trigger.opened .trigger-ico{
+	background-position: -14px -14px;
+}
+/*重写select样式end*/
+
+.orm-input{
+	height: 30px;
+	line-height: 30px;
+	padding-left: 10px;
+	border-radius: 2px;
+	border: 1px solid #e1e3e5;
+	color: #444;
+	font-size: 13px;
+}
+
+.orm-input:focus{
+	border-color: #71b7fd;
+	box-shadow: 0px 0px 7px rgba(41,140,239,0.3);
+}
+
+.orm-button{
+	width: 80px;
+	height: 32px;
+	border-radius: 2px;
+	border: 0;
+	background: #298cef;
+	color: #ffffff;
+	font-size: 14px;
+}
+
+.orm-button:hover{
+	cursor: pointer;
+	background: #2782de;
+}
+
+.orm-button:active{
+	position: relative;
+	top: 1px;
+}
+
+.ui-dialog .ui-dialog-head {
+    height: 40px;
+    background: url(../../../orm/commons/css/imgs/dialog-title-ico.png) 15px center no-repeat #f5f7fa;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border: 1px solid #e1e3e5;
+    border-radius: 0;
+    line-height: 38px;
+}
+
+.ztree li span.button.SYSTEM_ico_open{
+	background-position: -110px -16px;
+    background-image: url("../js/gallery/ztree/3.5.14/imgs/ztree.png");
+}
+.ztree li span.button.SYSTEM_ico_close{
+	background-position: -110px 0;
+    background-image: url("../js/gallery/ztree/3.5.14/imgs/ztree.png");
+}
+.ztree li span.button.SYSTEM_ico_docu{
+	background-position: -110px -16px;
+    background-image: url("../js/gallery/ztree/3.5.14/imgs/ztree.png");
+}
+
+.ztree li span.button.CODEINDEX_ico_open{
+    background-position: -110px -32px;
+    background-image: url("../js/gallery/ztree/3.5.14/imgs/ztree.png");
+}
+.ztree li span.button.CODEINDEX_ico_close{
+    background-position: -110px -32px;
+    background-image: url("../js/gallery/ztree/3.5.14/imgs/ztree.png");
+}
+.ztree li span.button.CODEINDEX_ico_docu{
+    background-position: -110px -32px;
+    background-image: url("../js/gallery/ztree/3.5.14/imgs/ztree.png");
+}
+
+.ztree li span.button.CODE_ico_open{
+    background-position: -110px -32px;
+    background-image: url("../js/gallery/ztree/3.5.14/imgs/ztree.png");
+}
+.ztree li span.button.CODE_ico_close{
+    background-position: -110px -32px;
+    background-image: url("../js/gallery/ztree/3.5.14/imgs/ztree.png");
+}
+.ztree li span.button.CODE_ico_docu{
+    background-position: -110px -32px;
+    background-image: url("../js/gallery/ztree/3.5.14/imgs/ztree.png");
+}
+.ztree li span.button.RESOURCE_ico_open{
+    background-position: -110px -32px;
+    background-image: url("../js/gallery/ztree/3.5.14/imgs/ztree.png");
+}
+.ztree li span.button.RESOURCE_ico_close{
+    background-position: -110px -32px;
+    background-image: url("../js/gallery/ztree/3.5.14/imgs/ztree.png");
+}
+.ztree li span.button.RESOURCE_ico_docu{
+    background-position: -110px -32px;
+    background-image: url("../js/gallery/ztree/3.5.14/imgs/ztree.png");
+}

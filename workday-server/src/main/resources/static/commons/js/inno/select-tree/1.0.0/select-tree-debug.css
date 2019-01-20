@@ -1,0 +1,93 @@
+.ui-select-trigger {
+	overflow: hidden;
+}
+
+.ui-select-tree{
+	overflow: auto;
+	border: 1px solid #e3e5e8;
+		background: #fff;
+}
+
+.ui-select-tree-content{
+	padding-bottom: 10px;
+}
+
+.ui-select-tree-content li{
+	line-height: 20px;
+	white-space: nowrap;
+}
+
+
+.ui-select-tree-content li ul {
+	margin: 0;
+	padding: 0 0 0 18px;
+}
+
+.ui-select-tree-swicth{
+	line-height: 0;
+	margin: 0;
+	width: 18px;
+	height: 18px;
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	vertical-align: middle;
+	border: 0 none;
+	cursor: pointer;
+	outline: none;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-image: url("./imgs/ztree.png");
+	background-position: -74px -72px;
+}
+
+.ui-select-tree-open{
+	background-position: -92px -72px;
+}
+
+.ui-select-tree-check{
+	line-height: 0;
+	width: 13px;
+	height: 13px;
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	vertical-align: middle;
+	border: 0 none;
+	cursor: auto;
+	outline: none;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-image: url("./imgs/ztree.png");
+	background-position: 0 0;
+	font-size: 0px;
+}
+
+.ui-select-tree-check:hover{
+	background-position:0 -14px
+}
+
+.ui-select-tree .ui-select-tree-checked{
+	background-position: -14px 0;
+}
+
+.ui-select-tree .ui-select-tree-disabled{
+	background-position: 0 -28px;
+}
+
+.ui-select-tree-icon{
+	width: 13px;
+	height: 13px;
+	line-height: 0;
+	vertical-align: middle;
+}
+
+.ui-select-tree-filter{
+	padding: 10px 10px  0px;
+}
+
+.ui-select-tree-filter input{
+	
+}

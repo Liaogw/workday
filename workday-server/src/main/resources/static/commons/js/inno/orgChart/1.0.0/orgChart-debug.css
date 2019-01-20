@@ -1,0 +1,176 @@
+/* Basic styling */
+/* Draw the lines */
+table{
+    border-collapse: separate;
+    margin: 0 auto;
+}
+
+.jOrgChart .line {
+  height: 10px;
+  width: 2px;
+}
+
+.jOrgChart .down {
+  background-color: #c4c9cf;	
+  margin: 0px auto;
+}
+
+.jOrgChart .top {
+  border-top: 2px solid #c4c9cf;
+}
+
+.jOrgChart .left {
+  border-right: 1px solid #c4c9cf;
+}
+
+.jOrgChart .right {
+  border-left: 1px solid #c4c9cf;
+}
+
+/* node cell */
+.jOrgChart td {
+  text-align: center;
+  vertical-align: top;
+  padding: 0;
+}
+
+/* The node */
+.node {
+  background-color: #35363B;
+  display: inline-block;
+  width: 96px;
+  height: 60px;
+  z-index: 10;
+  margin: 0 2px;
+  position: relative;
+}
+
+.node-tool-bar{
+  position: absolute;
+  bottom: 0px;
+  height: 26px;
+  line-height: 26px;
+  width: 100%;
+  background: url("imgs/node-tool-bar.png") repeat;
+  display: none;
+}
+
+.node-tool-bar .iconfont{
+  color: #fff;
+  margin: 0 5px;
+  font-size: 12px;
+}
+
+.node-tool-bar .iconfont:hover{
+  color: #1c62c1;
+}
+
+.node-cells{
+  height:56px;
+}
+
+/* jQuery drag 'n drop */
+
+.drag-active {
+  border-style: dotted !important;
+}
+
+.drop-hover {
+  border-style: solid !important;
+  border-color: #E05E00 !important;
+}
+
+/* general */
+.clear {
+  clear: both;
+}
+
+/* Header */
+.brand{
+  color: #E05E00 !important; 
+  font-family: georgia;
+  font-style : italic;
+}
+
+/* list stuff */
+#org{
+  background-color: white;
+  margin: 10px;
+  padding: 10px;
+}
+
+#show-list{
+  cursor: pointer;
+}
+
+/* bootstrap overrides */
+.alert-message{
+  margin: 2px 0;
+}
+
+.topbar{
+  position: absolute;
+}
+
+/* Custom chart styling */
+.jOrgChart {
+
+}
+
+/* Custom node styling */
+.jOrgChart .node {
+  font-size: 14px;
+  border-radius: 3px;
+  color: #565656;
+  -moz-border-radius  : 8px;
+}
+.node p{
+  font-family: tahoma;
+  font-size: 10px;
+  line-height: 11px;
+  padding: 2px;
+}
+.pln{color:#000}
+
+@media screen{.str{color:#080}.kwd{color:#008}.com{color:#800}.typ{color:#606}.lit{color:#066}.pun,.opn,.clo{color:#660}.tag{color:#008}.atn{color:#606}.atv{color:#080}.dec,.var{color:#606}.fun{color:red}}@media print,projection{.str{color:#060}.kwd{color:#006;font-weight:bold}.com{color:#600;font-style:italic}.typ{color:#404;font-weight:bold}.lit{color:#044}.pun,.opn,.clo{color:#440}.tag{color:#006;font-weight:bold}.atn{color:#404}.atv{color:#060}}pre.prettyprint{padding:2px;border:1px solid #888}ol.linenums{margin-top:0;margin-bottom:0}li.L0,li.L1,li.L2,li.L3,li.L5,li.L6,li.L7,li.L8{list-style-type:none}li.L1,li.L3,li.L5,li.L7,li.L9{background:#eee}
+
+
+/* node cell */
+.jOrgChart td {
+    text-align: center;
+    vertical-align: top;
+    padding: 0;
+}
+
+/* The node */
+.jOrgChart .node {
+    background-color: #dbdfe5;
+    display: inline-block;
+    width: 100px;
+    height: 56px;
+    z-index: 10;
+    margin: 0 2px;
+    vertical-align: middle;
+}
+
+/* jQuery drag 'n drop */
+.drag-active {
+    border-style: dotted !important;
+}
+
+.drop-hover {
+    border-style: solid !important;
+    border-color: #E05E00 !important;
+}
+
+.node-title{
+  font-size: 14px;
+  display: table-cell;
+  vertical-align: middle;
+  width: 100px;
+  height: 56px;
+}
+
+.node-content{
+  font-size: 12px;
+}

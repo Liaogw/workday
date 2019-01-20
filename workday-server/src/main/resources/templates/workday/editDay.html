@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<script src='/resources/js/jquery-1.9.1.min.js' th:src="@{/js/jquery-1.9.1.min.js}" ></script>
+<script src='/resources/js/editDay.js' th:src="@{/js/editDay.js}"></script>
+</head>
+	<body>
+		<div style="text-align:center;margin:0 auto;">
+			<p><span>编辑日期:</span><span id="date">2016-04-26</span></p>
+			<div>
+				<span>是否为工作日</span>
+				<select id="isWorkDay">
+					<option value="1" selected>是</option>
+					<option value="0">否</option>
+				</select>
+			</div>
+		</div>
+		<input type="button" id="dayEdit" value="确定" style="float:right;"/>
+	</body>
+</html>

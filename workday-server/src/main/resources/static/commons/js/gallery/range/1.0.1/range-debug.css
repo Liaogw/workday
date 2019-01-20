@@ -1,0 +1,75 @@
+.range{
+    width: 258px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.range .next,.range .prev{
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    width: 14px;
+    height: 14px;
+}
+
+.range .next{
+    float: left;
+    background: url("img/button.png") no-repeat -28px 0;
+}
+
+.range .next:hover{
+    background: url("img/button.png") no-repeat -42px 0;
+}
+
+.range .prev{
+    background: url("img/button.png") no-repeat 0 0;
+    float: left;
+}
+
+.range .prev:hover{
+    background: url("img/button.png") no-repeat -14px 0;
+}
+
+.range .range-slider-container {
+    position: relative;
+    float: left;
+    margin: 0 8px;
+    color: #fff;
+}
+.range-slider-container .range-slider {
+    margin: 0 auto;
+}
+.range-slider-container .range-slider {
+	background-color: #e9e9e9;
+    border-width: 0;
+    height: 15px;
+    line-height: 15px;
+    margin: 0 auto;
+    position: relative;
+    width: 214px;
+    z-index: 105;
+    border-radius: 13px;
+    cursor: pointer;
+}
+.range-slider-container .range-slider .range-slider-sub {
+    background-color: #66c8c8;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 0px;
+    border-radius: 13px;
+}
+.range-slider-container .range-slider .range-slider-handle {
+    background-image: url(img/ruleCursor.png) !important;
+    background-position: left top !important;
+    cursor: pointer;
+    display: block;
+    height: 25px !important;
+    left: -8px;
+    line-height: 11px !important;
+    overflow: hidden;
+    position: absolute;
+    top: -6px !important;
+    width: 23px !important;
+}

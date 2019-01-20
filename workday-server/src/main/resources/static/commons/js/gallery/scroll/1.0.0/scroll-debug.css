@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*
+请注意：除 Scroll 样式名外其它的样式名称与JS绑定，修改时请谨慎，保持与JS中调用同步。
+*/
+
+body{ font-size:12px; text-align:left; position:0px; margin:0px;}
+
+
+.Scroll2 { width:200px; height:100px; border:dashed 1px #888; margin:30px 0 0 50px; padding:5px; line-height:20px;}
+
+.Scroll-y { width:15px; line-height:0px; font-size:0px; }
+.Scroll-y-Up, .Scroll-y-Down{width:15px; height:15px;cursor: pointer;}
+.Scroll-y-Up { background:url(img/y_up_2.gif) no-repeat center center}
+.Scroll-y-Drag { background:url(img/bg_1.gif) repeat-y center top;}
+.Scroll-y-Drag-Bar {  cursor:default}
+.Scroll-y-DBM { width: 7px;border: 1px solid #797a7c;border-radius: 5px;background: #797a7c;margin: 0 auto;}
+.Scroll-y-Down { background:url(img/y_down_2.gif) no-repeat center center;}
+.Scroll-y-Up-D { background-position:center 5px}
+.Scroll-y-Down-D { background-position:center 7px}
+.Scroll-y-Drag-Bar-D{ }
+.Scroll-y-Drag_Bar-D .Scroll_y-DBM{ background-color:#888;}
+

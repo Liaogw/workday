@@ -1,0 +1,161 @@
+.user-condition{
+	height: 32px;
+	padding-top: 22px;
+}
+
+.condition-items{
+	width: 33.33%;
+	float: left;
+}
+
+.items-label{
+	float: left;
+	width: 105px;
+	padding-right: 5px;
+	text-align: right;
+	line-height: 32px;
+	color: #444444;
+	font-size: 13px;
+}
+
+.items-inps{
+	width: 188px;
+}
+
+.user-btns{
+	height: 32px;
+	padding: 20px 0;
+}
+
+.user-btns-check{
+	margin-right: 10px;
+}
+
+.manage-tab{
+	margin-bottom: 30px;
+}
+
+.tab-title{
+	height: 38px;
+	line-height: 37px;
+	border: 1px solid #dde5f0;
+	border-bottom: 0;
+	color: #444444;
+}
+
+.tab-operate{
+	font-size: 13px;
+	float: right;
+	padding-right: 10px;
+	cursor: pointer;
+}
+
+.operate-spans{
+	padding-right: 15px;
+}
+
+.operate-spans .operate-spans-ico{
+	vertical-align: text-bottom;
+	margin-right: 6px;
+}
+
+.tab-title-text{
+	font-size: 14px;
+	padding-left: 10px;
+}
+
+.tab-grid{
+	border: 1px solid #e1e3e5;
+}
+
+/*datagrid 部分样式*/
+td[field="id"]{
+	width: 49px;
+}
+
+td[field="user-status"]{
+	width:76px;
+}
+
+td[field="sex"]{
+	width: 47px;
+}
+
+td[field="telephone"]{
+	width: 106px;
+}
+
+td[field="operate"]{
+	width: 217px;
+}
+
+.datagrid-htable .datagrid-header-row td[field="operate"],
+.datagrid-body td[field="operate"]{
+	border-right: 0;
+}
+
+.id_number{
+	display: inline-block;
+	width: 25px;
+	text-align: center;
+	margin-left: -11px;
+}
+
+.id_checkbox{
+	position: relative;
+	top: 2px;
+}
+
+.datagrid-cell a.operate-items{
+	color: #298cef;
+}
+
+.datagrid-cell a.operate-items:hover{
+	color: #2782de;
+}
+
+.items-space{
+	margin-right: 10px;
+}
+
+/*datagrid 部分样式 end*/
+
+
+
+/*重写dialog样式start*/
+.ui-dialog .ui-dialog-head{
+	height: 40px;
+	background: url(imgs/dialog-title-ico.png) 15px center no-repeat #f5f7fa;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	border: 1px solid #e1e3e5;
+	border-radius: 0;
+	line-height: 38px;
+}
+
+.ui-dialog-head .ui-dialog-title{
+	padding-left: 45px;
+	color: #444444;
+	font-size: 16px;
+}
+
+.ui-dialog-head a.ui-dialog-close{
+	color: #96a5b3;
+	font-size: 20px;
+	line-height: 38px;
+	top: 0;
+}
+
+.ui-dialog-head a.ui-dialog-close:hover{
+	color: #e54d4d;
+}
+
+.ui-dialog .ui-dialog-content{
+	border: 1px solid #e1e3e5;
+	border-top: 0;
+}
+/*重写dialog样式end*/
+
+.trigger-ico{
+	background: url(imgs/select-arrow.png) -3px -14px no-repeat;
+}

@@ -1,0 +1,27 @@
+		.ui-time{
+			border: 1px solid #eee;
+		}
+
+		.ui-time-content{
+			padding: 5px;
+			text-align: center;
+		}
+		
+		.ui-time-content span{
+			margin: 0 3px;
+		}
+
+		.ui-time-input{
+			width: 20px;
+			text-align: center;
+		}
+		
+		.ui-time-footer{
+			text-align: center;
+			margin-bottom: 5px;
+		}
+
+		.ui-time  .ui-button{
+			width: 50px;
+			margin: 0 2px;
+		}

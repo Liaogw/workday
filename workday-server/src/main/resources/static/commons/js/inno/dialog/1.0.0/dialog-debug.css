@@ -1,0 +1,122 @@
+/*! dialog-debug.css */
+.ui-dialog {
+    border: none;
+    outline: none;
+    box-shadow: 0px 4px 16px #a8adb2;
+}
+
+.ui-dialog-head{
+	height: 38px;
+	display: block;
+	background: #f5f7fa;
+	/*border-radius: 3px 3px 0 0;*/
+    border: 1px solid #e1e3e5;
+    border-radius: 0;
+	position: relative;
+	line-height: 38px;
+}
+
+.ui-dialog-content {
+    background: #fff;
+    display: block;
+    border: 1px solid #e1e3e5;
+    border-top: 0;
+}
+
+:root .ui-dialog {
+    FILTER: none\9;
+}
+
+a.ui-dialog-close {
+    color: #96a5b3;
+    cursor: pointer;
+    font-size: 20px;
+    line-height: 38px;
+    position: absolute;
+	right: 9px;
+    top: 0;
+    z-index: 10;
+}
+
+.ui-dialog-close:hover {
+    color: #e54d4d;
+
+}
+
+.ui-dialog-title {
+	font-size: 16px;
+    line-height: 40px;
+	color: #444444;
+	padding-left: 10px;
+}
+
+.ui-dialog-container {
+    /*padding:15px 20px 20px;*/
+    font-size: 14px;
+    color: #444444;
+}
+
+.ui-dialog-message {
+    /*margin-bottom:15px;*/
+    padding: 16px;
+}
+
+.ui-dialog-operation {
+    zoom:1;
+    text-align: right;
+    padding: 10px;
+    padding-bottom: 15px;
+}
+
+.ui-dialog-confirm, .ui-dialog-cancel {
+    display: inline;
+}
+
+.ui-dialog-operation .ui-dialog-confirm {
+    margin-right: 6px;
+}
+
+.ui-dialog-button-orange,
+.ui-dialog-button-white {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 2px;
+    width: 80px;
+    line-height:32px;
+    height:32px;
+    *overflow: visible; /* for a ie6/7 bug http://blog.csdn.net/jyy_12/article/details/6636099 */ 
+    background-image: none;
+}
+
+a.ui-dialog-button-orange:hover,
+a.ui-dialog-button-white:hover {
+    text-decoration: none;
+}
+
+.ui-dialog-button-orange {
+    color: #fff;
+    border:1px solid #d66500;
+    background-color: #f57f45;
+}
+
+.ui-dialog-button-orange:hover {
+    background-color: #fb8318;
+}
+
+.ui-dialog-button-white {
+    border:1px solid #afafaf;
+    background-color: #f3f3f3;
+    color: #777;
+}
+
+.ui-dialog-button-white:hover {
+    border: 1px solid #8e8e8e;
+    background-color: #fcfbfb;
+    color: #676d70;
+}

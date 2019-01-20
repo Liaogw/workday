@@ -1,0 +1,121 @@
+.ui-tabs-one,.ui-tabs-two,.ui-tabs-three,.ui-tabs-four {
+    /*font: 14px/1.5 'Xin Gothic', 'PT Sans', 'Hiragino Sans GB', 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
+    position: relative;
+    width: 100%;
+    padding-top: 47px;
+}
+.ui-tabs-three{
+	border: 1px solid #e1e3e5;
+}
+.ui-tabs-four{
+	background: #298cef;
+}
+
+.ui-tabs-nav {
+    position: absolute;
+    top: 6px;
+    margin: 0;
+    padding: 0;
+    z-index: 99;
+    list-style: none;
+}
+.ui-tabs-two .ui-tabs-nav,.ui-tabs-three .ui-tabs-nav{
+	width: 100%;
+	background: #298cef;
+	height: 47px;
+	border-radius: 2px 2px 0 0;
+}
+.ui-tabs-three .ui-tabs-nav{
+	background: #f0f3f7;
+	border-bottom: 1px solid #e1e3e5;
+	top:0px;
+}
+.ui-tabs-four .ui-tabs-nav{
+	height: 34px;
+	width: 100%;
+	background: #fff;
+	top:2px;
+}	
+.ui-tabs-nav li {
+    float: left;
+    height: 34px;
+    line-height: 35px;
+    text-align: center;
+    border: 1px solid #e1e3e5;
+	border-bottom: none;
+	border-radius: 2px 2px 0 0;
+    margin-right: 5px;
+    padding: 0 30px 0 11px;
+    cursor: pointer;
+    list-style: none;
+    background: #f5f7fa;
+    color: #666666;
+    font-size: 14px;
+    position: relative;
+}
+.ui-tabs-two .ui-tabs-nav li ,.ui-tabs-three .ui-tabs-nav li {
+	background: #e1e3e5;
+	margin-top: 10px;
+	border: none;
+	margin-right: 0px;
+	margin-left: 5px;
+}
+.ui-tabs-three .ui-tabs-nav li{
+	background: #d9dcde;
+}
+.ui-tabs-four .ui-tabs-nav li{
+	margin: 0;
+	margin-top: 3px;
+	background: #fff;
+	border: 0;
+	border-radius: 0px;
+	padding: 0px;
+    padding-top: 5px;
+}
+.ui-tabs-four .ui-tabs-nav li span{
+	padding: 0 20px;
+	border-left: 1px solid #e1e3e5;
+}
+.ui-tabs-nav .ui-tabs-active {
+    cursor: default;
+	height: 35px;
+	background: #fff;
+	color: #444444;
+}
+.ui-tabs-two  .ui-tabs-nav .ui-tabs-active {
+	background: #fff;
+	color: #298cef;
+}
+.ui-tabs-three  .ui-tabs-nav .ui-tabs-active {
+	background: #298cef;
+	color: #fff;
+}
+.ui-tabs-four  .ui-tabs-nav .ui-tabs-active {
+	background: #298cef;
+	color: #fff;
+	margin-top: 0px;
+	line-height: 35px;
+}
+.ui-tabs-four  .ui-tabs-nav .ui-tabs-active span{
+	border: none;
+}
+.ui-tabs-content {
+    position: relative;
+    border-top: 1px solid #e1e3e5;
+    background: #fff;
+}
+.ui-tabs-three .ui-tabs-content,.ui-tabs-four .ui-tabs-content{
+	border: none;
+}
+
+.ui-tabs-trigger-close{
+	position: absolute;
+	top: 0px;
+	right: 6px;
+	font-size: 12px;
+	color: #c2c8ce;
+}
+
+a.ui-tabs-trigger-close:hover{
+	color: #e54d4d;
+}

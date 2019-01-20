@@ -1,0 +1,26 @@
+/*app模式菜单start*/
+.appmenu{border-top:1px #FFF solid; position:relative}
+.appmenu .appmenu-page{height: 573px;}
+.appmenu .appmenu-list{  width:600px; margin:0 auto;}
+.appmenu .appmenu-sub-list{position: absolute;left:0px;}
+.appmenu .appmenu-sub-content{overflow: hidden;height: 176px;width:600px;margin:0 auto;position:relative}
+.appmenu .appmenu-list .appmenu-list-item,.appmenu .appmenu-sub-list .appmenu-sub-list-item{ float:left;  font-size:14px;background:url(img/h2-line.gif) repeat-x bottom;padding-bottom:20px;}
+.appmenu .appmenu-list .appmenu-no-bg{background: none}
+.appmenu-list .appmenu-list-item a{width:100px; height:103px;display: inline-block;*display: inline;*zoom:1;margin: 25px}
+.appmenu-sub-list .appmenu-sub-list-item a{ width:100px; height:103px; background-image:url(img/icon_pic.png); background-repeat:no-repeat;display:block; margin:25px}
+.appmenu-list .appmenu-list-item p,.appmenu-sub-list .appmenu-sub-list-item p{display:block; text-align:center; margin-top:-15px}
+.appmenu-list .appmenu-list-item .appmenu-list-b{background-position:-102px -63px}
+.appmenu-sub-list .appmenu-sub-list-item .appmenu-sub-list-c{background-position:-204px -63px}
+.appmenu-nav{position: relative;bottom: 15px;left: 0;width: 100%;z-index: 99;text-align: center;z-index: 12;}
+.appmenu-nav .appmenu-trigger{display: inline-block;*display: inline;*zoom:1;margin-left: 5px;font-size: 20px;line-height: 16px;color: #d7d7d7;cursor: pointer;list-style: none;}
+.appmenu-nav .appmenu-active{color: #1052a2}
+
+.appmenu .appmenu-sub{display:none;height:176px; background:#435871; position:absolute; top:179px; width:100%; opacity: .9;filter: alpha(opacity=90);}
+.appmenu .appmenu-sub em{display:inline-block;*display:inline;*zoom: 1;  width:20px; height:15px; background:url(img/icon_pic.png); position:absolute; left:100px ;}
+.appmenu .appmenu-sub em.top{background-position:-129px -32px; top:-14px}
+.appmenu .appmenu-sub em.bottom{background-position:-149px -35px; top:176px}
+.appmenu .appmenu-sub p{color:#FFF}
+.appmenu .appmenu-sub i{cursor: pointer;display:inline-block;*display:inline;*zoom: 1; width:13px; height:26px; position:absolute;background-image:url(img/icon_pic.png) }
+.appmenu .appmenu-sub .left{left:10px; top:70px; background-position:-175px -32px;}
+.appmenu .appmenu-sub .right{right:10px; top:70px; background-position:-190px -32px;}
+/*app模式菜单end*/

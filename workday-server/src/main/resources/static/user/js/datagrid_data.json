@@ -1,0 +1,115 @@
+{
+	"total":10,
+	"rows":[
+		{
+			"id":"<span class='id_number'>1</span><input type='checkbox' class='id_checkbox' />",
+			"user-name":"JT stupidguy",
+			"user-login":"idiotstupidguy@qq.com",
+			"user-status":"正常",
+			"sex":"男",
+			"telephone":"15378998765",
+			"organization":"浙江久拓科技有限公司",
+			"department":"智慧交通",
+			"operate":"<a class='operate-items items-space'>编辑</a><a class='operate-items items-space'>注销</a><a class='operate-items items-space'>修改密码</a><a class='operate-items'>删除</a>"
+		},
+		{
+			"id":"<span class='id_number'>2</span><input type='checkbox' class='id_checkbox' />",
+			"user-name":"JT stupidguy",
+			"user-login":"idiotstupidguy@qq.com",
+			"user-status":"注销",
+			"sex":"男",
+			"telephone":"15378998765",
+			"organization":"浙江久拓科技有限公司",
+			"department":"智慧交通",
+			"operate":"<a class='operate-items items-space'>激活</a><a class='operate-items'>删除</a>"
+		},
+		{
+			"id":"<span class='id_number'>3</span><input type='checkbox' class='id_checkbox' />",
+			"user-name":"JT stupidguy",
+			"user-login":"idiotstupidguy@qq.com",
+			"user-status":"正常",
+			"sex":"男",
+			"telephone":"15378998765",
+			"organization":"浙江久拓科技有限公司",
+			"department":"智慧交通",
+			"operate":"<a class='operate-items items-space'>编辑</a><a class='operate-items items-space'>注销</a><a class='operate-items items-space'>修改密码</a><a class='operate-items'>删除</a>"
+		},
+		{
+			"id":"<span class='id_number'>4</span><input type='checkbox' class='id_checkbox' />",
+			"user-name":"JT stupidguy",
+			"user-login":"idiotstupidguy@qq.com",
+			"user-status":"注销",
+			"sex":"男",
+			"telephone":"15378998765",
+			"organization":"浙江久拓科技有限公司",
+			"department":"智慧交通",
+			"operate":"<a class='operate-items items-space'>激活</a><a class='operate-items'>删除</a>"
+		},
+		{
+			"id":"<span class='id_number'>5</span><input type='checkbox' class='id_checkbox' />",
+			"user-name":"JT stupidguy",
+			"user-login":"idiotstupidguy@qq.com",
+			"user-status":"正常",
+			"sex":"男",
+			"telephone":"15378998765",
+			"organization":"浙江久拓科技有限公司",
+			"department":"智慧交通",
+			"operate":"<a class='operate-items items-space'>编辑</a><a class='operate-items items-space'>注销</a><a class='operate-items items-space'>修改密码</a><a class='operate-items'>删除</a>"
+		},
+		{
+			"id":"<span class='id_number'>6</span><input type='checkbox' class='id_checkbox' />",
+			"user-name":"JT stupidguy",
+			"user-login":"idiotstupidguy@qq.com",
+			"user-status":"注销",
+			"sex":"男",
+			"telephone":"15378998765",
+			"organization":"浙江久拓科技有限公司",
+			"department":"智慧交通",
+			"operate":"<a class='operate-items items-space'>激活</a><a class='operate-items'>删除</a>"
+		},
+		{
+			"id":"<span class='id_number'>7</span><input type='checkbox' class='id_checkbox' />",
+			"user-name":"JT stupidguy",
+			"user-login":"idiotstupidguy@qq.com",
+			"user-status":"正常",
+			"sex":"男",
+			"telephone":"15378998765",
+			"organization":"浙江久拓科技有限公司",
+			"department":"智慧交通",
+			"operate":"<a class='operate-items items-space'>编辑</a><a class='operate-items items-space'>注销</a><a class='operate-items items-space'>修改密码</a><a class='operate-items'>删除</a>"
+		},
+		{
+			"id":"<span class='id_number'>8</span><input type='checkbox' class='id_checkbox' />",
+			"user-name":"JT stupidguy",
+			"user-login":"idiotstupidguy@qq.com",
+			"user-status":"注销",
+			"sex":"男",
+			"telephone":"15378998765",
+			"organization":"浙江久拓科技有限公司",
+			"department":"智慧交通",
+			"operate":"<a class='operate-items items-space'>激活</a><a class='operate-items'>删除</a>"
+		},
+		{
+			"id":"<span class='id_number'>9</span><input type='checkbox' class='id_checkbox' />",
+			"user-name":"JT stupidguy",
+			"user-login":"idiotstupidguy@qq.com",
+			"user-status":"正常",
+			"sex":"男",
+			"telephone":"15378998765",
+			"organization":"浙江久拓科技有限公司",
+			"department":"智慧交通",
+			"operate":"<a class='operate-items items-space'>编辑</a><a class='operate-items items-space'>注销</a><a class='operate-items items-space'>修改密码</a><a class='operate-items'>删除</a>"
+		},
+		{
+			"id":"<span class='id_number'>10</span><input type='checkbox' class='id_checkbox' />",
+			"user-name":"JT stupidguy",
+			"user-login":"idiotstupidguy@qq.com",
+			"user-status":"注销",
+			"sex":"男",
+			"telephone":"15378998765",
+			"organization":"浙江久拓科技有限公司",
+			"department":"智慧交通",
+			"operate":"<a class='operate-items items-space'>激活</a><a class='operate-items'>删除</a>"
+		}
+	]
+}
